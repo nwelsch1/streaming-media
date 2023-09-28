@@ -123,7 +123,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 html {
     background-color: #020659;
 }
-body {
+button {
     background-color: #590242;
     margin:0 auto;
     padding:10px;
