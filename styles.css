@@ -113,6 +113,10 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     }
 }
 /*end of menu txt*/
+html{
+    background-color: #020659;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .scroll {
     display:grid;
     grid-template-columns: repeat(5, 1fr);
@@ -154,5 +158,5 @@ audio {
     margin: 10px 0 30px 32px;
 }
 .more:hover {
-    
+
 }
