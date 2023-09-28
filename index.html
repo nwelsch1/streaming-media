@@ -5,23 +5,27 @@
     <meta name="Author" content="Nancy Welsch">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MuzakMaker</title>
-    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>MuzakMaker-Smooth Jazz</title>
 </head>
 <body>
     <header>
         <h1>Smooth Jazz</h1>
         <p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented crossover jazz became dominant in the 1980s and early 1990s.</p>
+    </header>
         <nav>
+            <h2>Main Navigation</h2>
+            <input type="checkbox" id="dropdown" />
+            <label for="dropdown"><span></span></label>
             <ul>
-                <li><a href="MuzakMaker">MuzakMaker</a></li>
-                <li><a href="#Trending Songs">Trending Songs</a></li>
-                <li><a href="Your Playlists">Your Playlists</a></li>
-                <li><a href="Curated Playlists">Curated Playlists</a></li>
-                <li><a href="duke-silver.png">duke-silver.png</a></li>
+                <li><a href="#home">MuzakMaker</a></li>
+                <li><a href="#Trending">Trending<br/>Songs</a></li>
+                <li><a href="Playlists">Your<br/>Playlists</a></li>
+                <li><a href="Curated">Curated<br/>Playlists</a></li>
+                <li><a href="user"><img src="duke-silver.png" alt="user profile picture"></a></li>
             </ul>
         </nav>
-    </header>
+        <main>
     <section id="TrendingSongs">
         <h2>Trending Songs</h2>
 
@@ -87,13 +91,13 @@
         <img src="smooth-study-cover.png" alt="smooth-study-cover">
         <dt><h3>Smooth Study</h3></dt>
         <dd>Background music to keep you going while you study.</dd>
-        <button type="button">All your playlists</button>
+        <button type="button">All<br/> your<br/> playlists</button>
         </dl>
     </section>
 
     <section id="CuratedPlaylists">
         <dl>
-        <h2>Curated Playlists</h2>
+        <h2>Curated<br/> Playlists</h2>
 
         <img src="boozy-brunch-cover.png" alt="boozy-brunch-cover">        
         <dt><h3>Boozy Brunch</h3></dt>
@@ -115,10 +119,11 @@
         <dt><h3>Jazz Saxophone</h3></dt>
         <dd>The greatest collection of your sax favorites.</dd>
         </dl>
-        More curated
+        <button type="button">More<br/> Curated</button>
           
          
     </section>
+    </main>
     <footer>
         <p><small>Copyright &COPY;2022 Smooth Jazz</small></p>
     </footer>
