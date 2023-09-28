@@ -149,6 +149,10 @@ dl {
     margin-left: 0;
     margin-right: 0;
 }
+main {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 #TrendingSongs {
     grid-column-start:1;
     grid-column-end: 3;
