@@ -113,3 +113,46 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     }
 }
 /*end of menu txt*/
+.scroll {
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.scroll section {
+    margin: 10px;
+    position: relative;
+}
+.scroll div {
+    position: absolute;
+    top: 251px;
+    background-color: rgba(255,255,255,.75);
+    padding: 5px;
+    height: 50px;
+    width: 350px;
+}
+dl {
+    display: flex;
+}
+dt {
+    padding-right: 5px;
+}
+audio {
+    position: absolute;
+    bottom: 150px;
+    left: 5px;
+}
+.more {
+    text-decoration: none;
+    background-color: #590242;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    margin: 10px 0 30px 32px;
+}
+.more:hover {
+    
+}
