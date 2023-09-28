@@ -115,6 +115,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 /*end of menu txt*/
 html {
     background-color: #020659;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body {
     width:375px;
