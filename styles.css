@@ -113,37 +113,3 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     }
 }
 /*end of menu txt*/
-html {
-    background-color: #020659;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-* {
-    box-sizing: border-box;
-    margin:0;
-    padding: 0;
-}
-body {
-    width:375px;
-    margin: 0 auto;
-    background-color: #ffffff;
-}
-main {
-    color:#590242;
-}
-nav ul {
-
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-h1 {
-    font-size: 1.25em;
-}
-h2, h3 {
-    font-size: 1em;
-}
-p, dl, dd {
-    font-size: 1em;
-}
-footer p {
-    font-size: .75em;
-}
