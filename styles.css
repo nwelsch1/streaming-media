@@ -117,6 +117,11 @@ html{
     background-color: #020659;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
+
+
+
 .scroll {
     display:grid;
     grid-template-columns: repeat(5, 1fr);
