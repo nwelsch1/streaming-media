@@ -252,3 +252,20 @@ audio::-webkit-media-controls-enclosure {
 #playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
     background: #ffffff;
 }
+body {
+    font-family: Optima, sans-serif;
+    color:#ffffff;
+}
+h1 {
+    font-size: 22px;
+    line-height: 2em;
+}
+h1, h2, h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h2, h3 {
+    font-size: 20px;
+    color: #590242;
+    line-height: 2em;
+}
