@@ -149,3 +149,7 @@ dl {
     margin-left: 0;
     margin-right: 0;
 }
+#trendingsongs {
+    grid-column-start:1;
+    grid-column-end: 2;
+}
