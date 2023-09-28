@@ -149,6 +149,10 @@ dl {
     margin-left: 0;
     margin-right: 0;
 }
+header {
+    width:100%;
+    background-color: ;
+}
 main {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -158,6 +162,7 @@ main {
     grid-column-end: 3;
 }
 #YourPlaylists {
+    background-color: #0d8dfb;
     grid-column-start: 1;
     grid-column-end: 2;
 }
