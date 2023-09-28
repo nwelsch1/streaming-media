@@ -46,12 +46,6 @@ table {
     border-spacing: 0;
 }
 /* End Reset Code taken from Slack */
-JS Fiddle example: 
-https://jsfiddle.net/1fzgah3n/
-
-
-Menu Code for Mobile First Style (minus the bits you know how to do): 
-
 ul {
     overflow: hidden;
     max-height: 0;
