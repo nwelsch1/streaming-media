@@ -304,3 +304,7 @@ audio::-webkit-media-controls-enclosure {
 #curated-playlist.scroll img {
     grid-row: 1 / 3;
 }
+#play, #curate {
+    position:relative
+    right: -225px;
+}
