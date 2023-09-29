@@ -344,10 +344,7 @@ audio::-webkit-media-controls-enclosure {
         grid-column-start: 1;
         grid-column-end: 2;
     }
-    #curated-playlist.scroll{
-        grid-column-start: 2;
-        grid-column-end: 3;
-    }
+   
     #your-playlists.scroll img {
         grid-row: 1 / 3;
     }
@@ -358,6 +355,10 @@ audio::-webkit-media-controls-enclosure {
     }
     #curated-playlist.scroll h3 {
         padding-top: 20px;
+    }
+    #curated-playlist.scroll{
+        grid-column-start: 2;
+        grid-column-end: 3;
     }
     #curated-playlist.scroll p {
         grid-column-start: 2;
