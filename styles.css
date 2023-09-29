@@ -44,9 +44,6 @@ html {
     background-color: #020659;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-header {
-    background-color: linear-gradient(0.25turn, #2104D9, #000000 90%);
-}
 header h1, header p {
     color: #ffffff;
     position: relative;
