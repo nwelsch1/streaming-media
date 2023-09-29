@@ -137,6 +137,9 @@ body {
     color: #FFFFFF;
     text-align: center;
 }
+#curated-playlist section:hover {
+    background-color: #590242;
+}
 #curated p {
     margin-top: 0;
 }
