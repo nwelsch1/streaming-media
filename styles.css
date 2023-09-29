@@ -51,6 +51,10 @@ html {
     background-color: #020659;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+header {
+    background-color: 020873;
+}
+
 body {
     min-width:375px;
     max-width: 834px;
