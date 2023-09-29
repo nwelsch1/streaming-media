@@ -329,9 +329,6 @@ audio::-webkit-media-controls-enclosure {
     #your-playlists.scroll h3 {
         padding-top: 20px;
     }
-    #your-playlists.scroll h3 {
-        padding-top: 20px;
-    }
     #your-playlists.scroll p {
         grid-column-start: 2;
     }
