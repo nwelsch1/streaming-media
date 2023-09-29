@@ -249,6 +249,8 @@ p, dl, dd {
 }
 dl {
     display: flex;
+    color:#590242;
+    margin-top: 0;
 }
 dt {
     padding-right: 5px;
