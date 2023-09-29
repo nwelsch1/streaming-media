@@ -345,6 +345,10 @@ audio::-webkit-media-controls-enclosure {
     #your-playlists.scroll img {
         grid-row: 1 / 3;
     }
+    #curated {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
     #curated-playlist.scroll section {
         display: grid;
         grid-template-columns: 1fr;
