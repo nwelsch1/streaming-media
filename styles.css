@@ -120,6 +120,7 @@ html {
 }
 header {
     background-color: #020873;
+    height: 175;
 }
 header h1, header p {
     color: #ffffff;
@@ -170,67 +171,6 @@ ul {
 p, dl, dd {
     font-size: 1em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .scroll {
