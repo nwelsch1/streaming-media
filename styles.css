@@ -45,7 +45,10 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header {
-    background-color: linear;
+    background-color: linear-gradient(0.25turn, #2104D9, #000000 90%);
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 header h1, header p {
     color: #ffffff;
