@@ -47,6 +47,7 @@ html {
 header {
     background-color: #2104D9;
 }
+
 header h1, header p {
     color: #ffffff;
     position: relative;
@@ -75,6 +76,14 @@ li a {
 }
 li:hover {
     background-color: #590242;
+}
+[href="#home"] {
+    font-size: 30px;
+    font-weight: 800;
+    position: absolute;
+    top: 0;
+    left: 90px;
+    padding: 16px;
 }
 h1 {
     font-size: 22px;
