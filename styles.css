@@ -329,10 +329,10 @@ audio::-webkit-media-controls-enclosure {
     #your-playlists.scroll h3 {
         padding-top: 20px;
     }
-    #your-playlists.scroll section {
+    #your-playlists.scroll,#curated-playlist.scroll section {
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     }
     #your-playlists.scroll h3 {
         padding-top: 20px;
@@ -342,19 +342,14 @@ audio::-webkit-media-controls-enclosure {
     }
     #your-playlist.scroll {
         grid-column-start: 1;
-        grid-column-end: 2;
+        grid-column-end: 1;
     }
     #curated-playlist.scroll{
         grid-column-start: 2;
-        grid-column-end: 3;
+        grid-column-end: 2;
     }
     #your-playlists.scroll img {
         grid-row: 1 / 3;
-    }
-    #curated-playlist.scroll section {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
     }
     #curated-playlist.scroll h3 {
         padding-top: 20px;
