@@ -46,6 +46,8 @@ html {
 }
 header {
     background-color: #020873;
+}
+header h1, header p {
     color: #ffffff;
     position: relative;
     top: 65px;
@@ -56,13 +58,11 @@ header {
 }
 nav {
     width: 375px;
+    background-color: #030ABC;
     top: 0;
     text-transform: uppercase;
 }
-nav ul {
-    
-}
-nav h2 {
+nav h2{
     visibility: hidden;
 }
 li a {
@@ -130,7 +130,7 @@ body {
     border-radius: 5%;
 }
 #curated-playlist {
-    background-color: #2104D9;
+    background-color: #020873;
     color: #FFFFFF;
     text-align: center;
 }
@@ -312,8 +312,7 @@ audio::-webkit-media-controls-enclosure {
     }
     #playlists {
         display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 10px;
+        grid-template-columns: 50% 50%;
     }
     #your-playlists.scroll, #curated-playlist.scroll {
         grid-template-columns: 1fr;
