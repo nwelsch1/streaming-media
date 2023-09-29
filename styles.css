@@ -54,11 +54,13 @@ header {
     padding-bottom: 5px;
     margin: 10px;
 }
-nav ul {
-    background-color: #030ABC;
+nav {
     width: 375px;
     top: 0;
     text-transform: uppercase;
+}
+nav ul {
+    
 }
 nav h2 {
     visibility: hidden;
