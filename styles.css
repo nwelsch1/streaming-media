@@ -163,6 +163,10 @@ li a {
     padding: 20px 20px;
     text-decoration: none;
 }
+ul {
+    overflow: hidden;
+    transition: .3s ease-out;
+}
 p, dl, dd {
     font-size: 1em;
 }
@@ -257,7 +261,6 @@ dt {
     font-style: italic;
     padding-bottom: 10px;
 }
-
 audio {
     position: absolute;
     bottom: 150px;
