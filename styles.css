@@ -144,6 +144,10 @@ h2,h3 {
 	color: #590242;
 	line-height: 2em;
 }
+p, dl, dd {
+    font-size: 1em;
+}
+
 body {
     min-width:375px;
     max-width: 834px;
@@ -228,7 +232,7 @@ li a {
 
 
 .scroll {
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(5, 1fr);
     overflow-x: auto;
     overflow-y: hidden;
