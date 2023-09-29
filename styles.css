@@ -120,7 +120,7 @@ html {
 }
 header {
     background-color: #020873;
-    height: 175;
+    height: 175px;
 }
 header h1, header p {
     color: #ffffff;
@@ -154,7 +154,7 @@ body {
 }
 nav {
     width: 375px;
-    background-color: 030ABC;
+    background-color: #030ABC;
     top: 0;
     text-transform: uppercase;
 }
