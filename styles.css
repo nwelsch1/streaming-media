@@ -148,7 +148,7 @@ body {
     padding: 10px;
     border-radius: 5%;
 }
-#curated-playlists section:hover {
+#curated-playlist section:hover {
     background-color: #590242;
 }
 footer { 
