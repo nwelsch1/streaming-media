@@ -315,6 +315,7 @@ audio::-webkit-media-controls-enclosure {
         grid-template-columns: 50% 50%;
     }
     #your-playlists.scroll, #curated-playlist.scroll {
+        display:grid;
         grid-template-columns: 1fr 1fr;
         height: 500px;
         overflow-x: hidden;
