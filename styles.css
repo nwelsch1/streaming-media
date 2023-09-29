@@ -62,6 +62,9 @@ nav {
     top: 0;
     text-transform: uppercase;
 }
+nav h2{
+    visibility: hidden;
+}
 li a {
     display:block;
     color: #FFFFFF;
