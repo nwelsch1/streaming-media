@@ -325,7 +325,7 @@ audio::-webkit-media-controls-enclosure {
     }
     #your-playlists.scroll section {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
     #your-playlists.scroll h3 {
@@ -347,7 +347,7 @@ audio::-webkit-media-controls-enclosure {
     }
     #curated-playlist.scroll section {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
     #curated-playlist.scroll h3 {
