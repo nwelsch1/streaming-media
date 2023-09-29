@@ -352,19 +352,5 @@ audio::-webkit-media-controls-enclosure {
         right: -225px;
     }
 }
-@media screen and (min-width:375px) {
-    main {
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    #your-playlists.scroll section{
-        grid-column-start: 1;
-        grid-column-end: 2;
-    }
-    #curated-playlist.scroll section{
-        grid-column-start: 1;
-        grid-column-end: 3;
-    }
-}
 
 
