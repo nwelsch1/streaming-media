@@ -46,38 +46,6 @@ table {
     border-spacing: 0;
 }
 /* End Reset Code taken from Slack */
-
-html {
-    background-color: #020659;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-header {
-    background-color: 020873;
-}
-header h1, header p {
-    color: #ffffff;
-    position: relative;
-    top: 65px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 5px;
-    margin: 10px;
-}
-body {
-    min-width:375px;
-    max-width: 834px;
-    margin: 0 auto;
-    background-color: #ffffff;
-}
-
-
-
-
-
-
-
-
-
 ul {
     overflow: hidden;
     max-height: 0;
@@ -145,6 +113,39 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     }
 }
 /*end of menu txt*/
+
+html {
+    background-color: #020659;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    background-color: 020873;
+}
+header h1, header p {
+    color: #ffffff;
+    position: relative;
+    top: 65px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin: 10px;
+}
+body {
+    min-width:375px;
+    max-width: 834px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
