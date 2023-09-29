@@ -281,3 +281,12 @@ audio::-webkit-media-controls-enclosure {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
+#your-playlists.scroll h3 {
+    padding-top: 20px;
+}
+#your-playlists.scroll p {
+    grid-column-start: 2;
+}
+#your-playlists.scroll img {
+    grid-row: 1 / 3;
+}
