@@ -45,7 +45,7 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header {
-    background-color: #020873;
+    background-color: linear;
 }
 header h1, header p {
     color: #ffffff;
@@ -143,10 +143,13 @@ body {
 #curated h3 {
     color: #FFFFFF;
 }
-#crated-playlist section {
+#curated-playlist section {
     background-color: #020659;
     padding: 10px;
     border-radius: 5%;
+}
+#curated-playlists section:hover {
+    background-color: #590242;
 }
 footer { 
     margin: 0 auto;
