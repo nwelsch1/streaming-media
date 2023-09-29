@@ -64,6 +64,8 @@ nav {
 }
 nav h2{
     visibility: hidden;
+    max-height: 1px;
+    margin: 0;
 }
 li a {
     display:block;
