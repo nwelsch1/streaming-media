@@ -54,7 +54,15 @@ html {
 header {
     background-color: 020873;
 }
-
+header h1, header p {
+    color: #ffffff;
+    position: relative;
+    top: 65px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin: 10px;
+}
 body {
     min-width:375px;
     max-width: 834px;
