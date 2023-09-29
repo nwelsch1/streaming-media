@@ -267,7 +267,7 @@ audio::-webkit-media-controls-enclosure {
     display:grid;
     grid-template-columns: 50% 50%;
 }
-#your-playlists.scroll, #curated-playlists.scroll {
+#your-playlists.scroll, #curated-playlist.scroll {
     grid-template-columns: 1fr;
     height: 500px;
     overflow-x: hidden;
