@@ -144,10 +144,6 @@ h2,h3 {
 	color: #590242;
 	line-height: 2em;
 }
-p, dl, dd {
-    font-size: 1em;
-}
-
 body {
     min-width:375px;
     max-width: 834px;
@@ -167,7 +163,9 @@ li a {
     padding: 20px 20px;
     text-decoration: none;
 }
-
+p, dl, dd {
+    font-size: 1em;
+}
 
 
 
