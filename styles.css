@@ -46,8 +46,6 @@ html {
 }
 header {
     background-color: #020873;
-}
-header h1, header p {
     color: #ffffff;
     position: relative;
     top: 65px;
