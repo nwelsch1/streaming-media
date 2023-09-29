@@ -51,7 +51,6 @@ html {
 }
 header {
     background-color: #020873;
-    height: 175px;
 }
 header h1, header p {
     color: #ffffff;
@@ -283,6 +282,17 @@ audio::-webkit-media-controls-enclosure {
         display: none;
     }
 }
-
+header {
+    height: 175px;
+}
+nav {
+    width: 834px;
+}
+nav ul {
+    overflow: visible;
+    max-height: 66px;
+    justify-content: space-between;
+    flex-direction: row;
+}
 
 
