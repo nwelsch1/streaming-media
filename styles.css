@@ -305,6 +305,6 @@ audio::-webkit-media-controls-enclosure {
     grid-row: 1 / 3;
 }
 #play, #curate {
-    position:relative
+    position:relative;
     right: -225px;
 }
