@@ -272,5 +272,12 @@ audio::-webkit-media-controls-enclosure {
     height: 500px;
     overflow-x: hidden;
     overflow-y: auto;
-
+}
+#your-playlists.scroll h3 {
+    padding-top: 20px;
+}
+#your-playlists.scroll section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
