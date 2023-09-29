@@ -355,7 +355,7 @@ audio::-webkit-media-controls-enclosure {
         padding-top: 20px;
     }
     #curated-playlist.scroll{
-        grid-column-start: 2;
+        grid-column-start: 1;
         grid-column-end: 3;
     }
     #curated-playlist.scroll p {
