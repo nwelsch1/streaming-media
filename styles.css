@@ -44,8 +44,10 @@ html {
     background-color: #020659;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+header {
+    background-color: #020873;
+}
 header h1, header p {
-    background-image: linear-gradient(2 right, #2104D9, #020659);
     color: #ffffff;
     position: relative;
     top: 65px;
@@ -141,13 +143,10 @@ body {
 #curated h3 {
     color: #FFFFFF;
 }
-#curated-playlist section {
+#crated-playlist section {
     background-color: #020659;
     padding: 10px;
     border-radius: 5%;
-}
-#curated-playlist section:hover {
-    background-color: #590242;
 }
 footer { 
     margin: 0 auto;
@@ -319,7 +318,7 @@ audio::-webkit-media-controls-enclosure {
         grid-template-columns: 50% 50%;
     }
     #your-playlists.scroll, #curated-playlist.scroll {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         height: 500px;
         overflow-x: hidden;
         overflow-y: auto;
@@ -332,6 +331,9 @@ audio::-webkit-media-controls-enclosure {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
+    #your-playlists.scroll h3 {
+        padding-top: 20px;
+    }
     #your-playlists.scroll p {
         grid-column-start: 2;
     }
@@ -339,13 +341,12 @@ audio::-webkit-media-controls-enclosure {
         grid-column-start: 1;
         grid-column-end: 2;
     }
-   
+    #curated-playlist.scroll{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
     #your-playlists.scroll img {
         grid-row: 1 / 3;
-    }
-    #curated {
-        display: grid;
-        grid-template-columns: 50% 50%;
     }
     #curated-playlist.scroll section {
         display: grid;
@@ -354,10 +355,6 @@ audio::-webkit-media-controls-enclosure {
     }
     #curated-playlist.scroll h3 {
         padding-top: 20px;
-    }
-    #curated-playlist.scroll{
-        grid-column-start: 1;
-        grid-column-end: 3;
     }
     #curated-playlist.scroll p {
         grid-column-start: 2;
