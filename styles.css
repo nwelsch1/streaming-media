@@ -168,6 +168,12 @@ ul {
     overflow: hidden;
     transition: .3s ease-out;
 }
+nav ul {
+    overflow: visible;
+    max-height: 66px;
+    justify-content: space-between;
+    flex-direction: row;
+}
 p, dl, dd {
     font-size: 1em;
 }
