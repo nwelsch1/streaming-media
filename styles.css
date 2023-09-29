@@ -45,6 +45,7 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header h1, header p {
+    background-image: linear-gradient(2 right, #2104D9, #020659);
     color: #ffffff;
     position: relative;
     top: 65px;
