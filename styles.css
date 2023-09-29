@@ -56,9 +56,9 @@ header h1, header p {
     padding-bottom: 5px;
     margin: 10px;
 }
-nav {
-    width: 375px;
+nav ul {
     background-color: #030ABC;
+    width: 375px;
     top: 0;
     text-transform: uppercase;
 }
