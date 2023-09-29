@@ -77,11 +77,10 @@ li a {
 li:hover {
     background-color: #590242;
 }
-[href="#home"] {
-    font-size: 16px;
-    font-weight: 400;
-    position: absolute;
-    top: 0;
+ul li:first-child {
+    font-size: large;
+    width: 100%;
+    padding: 15px;
 }
 h1 {
     font-size: 22px;
