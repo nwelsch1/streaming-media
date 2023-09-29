@@ -56,6 +56,18 @@ header h1, header p {
     padding-bottom: 5px;
     margin: 10px;
 }
+nav {
+    width: 375px;
+    background-color: #030ABC;
+    top: 0;
+    text-transform: uppercase;
+}
+li a {
+    display:block;
+    color: #FFFFFF;
+    padding: 20px 20px;
+    text-decoration: none;
+}
 h1 {
     font-size: 22px;
     line-height: 2em;
@@ -70,18 +82,7 @@ h2,h3 {
     color: #590242;
     line-height: 2em;
 }
-nav {
-    width: 375px;
-    background-color: #030ABC;
-    top: 0;
-    text-transform: uppercase;
-}
-li a {
-    display:block;
-    color: #FFFFFF;
-    padding: 20px 20px;
-    text-decoration: none;
-}
+
 p, dl, dd {
     font-size: 1em;
 }
