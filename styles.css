@@ -126,6 +126,22 @@ body {
     padding: 10px;
     border-radius: 5%;
 }
+#curated-playlist {
+    background-color: #020873;
+    color: #FFFFFF;
+    text-align: center;
+}
+#curated p {
+    margin-top: 0;
+}
+#curated h3 {
+    color: #FFFFFF;
+}
+#crated-playlist section {
+    background-color: #020659;
+    padding: 10px;
+    border-radius: 5%;
+}
 footer { 
     margin: 0 auto;
     text-align: center;
